@@ -1,265 +1,265 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Oswald:wght@200..700&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Frijole&family=Oswald:wght@200..700&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Barrio&family=Frijole&family=Oswald&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Special+Elite&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-
-
-}
-nav{
-    background: black;
-    height: 120px;
-    width: 100%;
-    z-index: 10;
-    position: relative; 
-}
-.ancla{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    background: white;
-    height: 60px;
-    
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frijole&family=Oswald:wght@200..700&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Frijole&family=Oswald:wght@200..700&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Barrio&family=Frijole&family=Oswald&family=Permanent+Marker&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Barrio&family=Frijole&family=Oswald&family=Permanent+Marker&family=Playwrite+DE+Grund+Guides&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&family=Special+Elite&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+nav {
+  background: black;
+  height: 120px;
+  width: 100%;
+  z-index: 10;
+  position: relative;
 }
 
-nav ul li a{
-    color:#ffffff;
-    font-size: 15px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
+.ancla {
+  position: absolute;
+  padding: 20px 50px;
+}
 
+.logo {
+  background: white;
+  height: 60px;
 }
-li a.active, li a:hover{
-    background: orange;
-    transition: .5s;
-    position: relative;
+
+nav ul {
+  float: right;
+  margin-right: 20px;
 }
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 50px;
-    cursor: pointer;
-    display: none;
-    
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li a.active,
+li a:hover {
+  background: orange;
+  transition: 0.5s;
+  position: relative;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 50px;
+  cursor: pointer;
+  display: none;
+}
+
 #check {
-    display: none;
-    
+  display: none;
 }
 
-section{
-    background-size: cover;
-    background-position: center center;
-    height: calc(100% - 80px );
+body {
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
+section {
+  background-size: cover;
+  background-position: center center;
+  height: calc(100% - 80px);
+}
 
 h1 {
-    color: orange;
-    background-color: black;
-    font-family: "Barrio", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    margin: 0;
+  color: orange;
+  background-color: black;
+  font-family: "Barrio", system-ui;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 12px 10px 4px rgb(65, 63, 63);
+  margin: 0;
 }
 
-.inicio-main{
-    width: 100%;
-    height: 50px;
-    background-color: #020202;
+.inicio-main {
+  width: 100%;
+  height: 50px;
+  background-color: #020202;
 }
+
 .carousel {
-    z-index: 1;   
-}  
-
+  z-index: 1;
+}
 
 .galeria-cont {
-    background-color: black;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 400px);
-    padding: 20px;
-    grid-gap: 15px;
-
+  background-color: black;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(12, 400px);
+  padding: 10px;
+  grid-gap: 15px;
+  margin: 0;
 }
 
 .galeria_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
 }
 
-
-.somos h5{color: #ffffff;
-    background-color: black;
-    font-family: "Special Elite", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    
-    text-align: center;
-    font-size: 35px;
-    letter-spacing: 5px;
-
-}
-.main{
-    background-color: black;
-    padding: 5%;
+.somos h5 {
+  color: #999797;
+  background-color: black;
+  font-family: cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: inherit;
+  margin: 3px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 
-ul {  
-    margin: 0;  
-    padding: 0;  
-    list-style-type: none;  
-}  
+.main {
+  background-image: linear-gradient(to bottom, #000000, #020202, #050405, #070707, #0a0909, #0a0909, #0a0909, #0a0909, #070707, #050405, #020202, #000000);
+  background-color: black;
+  padding: 0;
+}
 
+.main img {
+  margin: 0;
+  padding: 25px;
+}
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
-.cambios {  
-    padding: 20px;  
-    background-color: #0c0c0c;   
-    border: 1px solid #080808;    
-    border-radius: 5px;        
-    margin: 20px 0; 
-    z-index: 1;    
-    position: relative;       
-}  
+.cambio-politica {
+  background-image: linear-gradient(to left bottom, #000000, #36181b, #662924, #934122, #b7630b);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-.cambios h2 {  
-    font-size: 1.5em;    
-    margin-bottom: 10px; 
-    color: red;
-    box-shadow: 0 0 4px 4px #ffffff; 
-}  
+.cambio {
+  margin-bottom: 20px;
+}
 
-.cambios ul {  
-    list-style-type: none;  
-    padding: 0;           
-}  
+strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
 
-.cambios ul li {  
-    margin-bottom: 15px;
-    color: red;   
-}  
+p {
+  margin: 5px 0 15px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #fae2e2;
+}
 
-.cambios strong {  
-    display: block;    
-    margin-bottom: 5px;
-    color: white;  
-}   
-
-
-
-
-
-
-
-
-.contacto{z-index: 1;
+.contacto {
+  z-index: 1;
 }
 
 .contacto ul li {
-    color: orange;
-    font-size: 30px;
-    text-decoration: none;
-    text-align:center;
-    margin: 30px;
-    font-family: fantasy;
-    list-style: none;
-    text-transform: uppercase;
+  color: orange;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 30px;
+  font-family: fantasy;
+  list-style: none;
+  text-transform: uppercase;
 }
 
 .contacto p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 3px;
-    
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .ubicacion h2 {
-    font-family: fantasy;
-    color: orange;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: fantasy;
+  color: orange;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .mapa {
-    margin: 50px;
-
+  margin: 50px;
 }
 
-
-
-
 footer {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 
 footer .redes-footer a {
-    color: orange;
-    text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 20px;
-
+  color: orange;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
 }
 
 .what {
-    height: 40px;
-    width: 40px;
-    background-color: springgreen;
-    color: #ffffff;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 100%;
-    box-shadow: 0 0 4px 4px white;
+  height: 40px;
+  width: 40px;
+  background-color: springgreen;
+  color: #ffffff;
+  text-decoration: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 100%;
+  box-shadow: 0 0 4px 4px white;
+  z-index: 1000;
 }
 
-@media (max-width: 952px){
-    .ancla{
-        padding-left: 20px;
-
-    }
-nav ul li a{
-font-size: 13px;
+@media (max-width: 952px) {
+  .ancla {
+    padding-left: 20px;
+  }
+  nav ul li a {
+    font-size: 13px;
+  }
 }
-}
-@media (max-width: 858px){
-.checkbtn{
+@media (max-width: 858px) {
+  .checkbtn {
     display: block;
-}
-ul{
+  }
+  ul {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -267,47 +267,48 @@ ul{
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
-
-}
-nav ul li{
+    transition: all 0.5s;
+  }
+  nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
-}
-nav ul li a{
+  }
+  nav ul li a {
     font-size: 20px;
-}
-li a:hover, li a.active{
+  }
+  li a:hover,
+  li a.active {
     background: none;
-    color:orange;
-}
-#check:checked ~ ul{
+    color: orange;
+  }
+  #check:checked ~ ul {
     left: 0;
+  }
 }
+@media only screen and (min-width: 480px) {
+  .galeria-cont {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 400px);
+  }
 }
-
-
-@media only screen and (min-width:480px) {
-    .galeria-cont {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, 400px);
-    }
-
+@media only screen and (min-width: 726px) {
+  .galeria-cont {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+  }
 }
-
-@media only screen and (min-width:726px) {
-    .galeria-cont {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(3, 400px);
-    }
-
+@media only screen and (min-width: 930px) {
+  .galeria-cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 800px);
+  }
 }
-
-@media only screen and (min-width:930px) {
-    .galeria-cont {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(1, 800px);
-    }
-
-}
+@media (max-width: 600px) {
+  .cambio-politica {
+    padding: 15px;
+  }
+  strong {
+    font-size: 1em;
+  }
+}/*# sourceMappingURL=estilos.css.map */
