@@ -100,12 +100,12 @@ h1 {
     color: orange;
     background-color: black;
     font-family: "Barrio", system-ui;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     text-shadow: 12px 10px 4px rgb(65, 63, 63);
-    
+    padding: 0;
     margin: 0;
 
 }
@@ -144,16 +144,16 @@ h1 {
 
 
 .somos h5 {
-    
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 307;
+    font-style: normal;
     color: #999797;
     background-color: black;
-    font-family:cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-transform:inherit;
-    margin: 3px;
-    text-align: center;
-    
+    text-transform:uppercase;
+    margin: 1px;
+    padding: 3px;
+    text-align: center; 
     font-size: 25px;
     letter-spacing: 1px;
 
@@ -191,13 +191,27 @@ ul {
 .cambio {
     margin-bottom: 20px;
 }
-
-strong {
-    display: block;
+h2{display: block;
+    font-family: "Protest Guerrilla", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
     margin-top: 10px;
     font-size: 20px;
     text-transform: uppercase;
-    color: #fff;
+    color: #d4850e;
+
+}
+h3 {
+    display: block;
+    font-family: "Special Elite", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #070505;
+    box-shadow: white 5px;
 }
 
 p {
@@ -309,11 +323,11 @@ footer .redes-footer a {
         position: fixed;
         width: 100%;
         height: 100%;
-        background: rgb(56, 56, 56);
+        background-image: linear-gradient(to right top, #f0823b, #c7623e, #9b473b, #6d3132, #3f1f23, #2e191a, #1d1212, #080606, #0d0b0a, #120f0e, #151211, #181513);
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all .6s;
 
     }
 
@@ -370,7 +384,7 @@ footer .redes-footer a {
         padding: 15px;
     }
 
-    strong {
+    h2 h3 {
         font-size: 1em;
     }
 }
