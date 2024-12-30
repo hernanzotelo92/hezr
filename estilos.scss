@@ -60,7 +60,7 @@ li a:hover {
     background: orange;
     transition: .5s;
     position: relative;
-    
+
 }
 
 
@@ -99,8 +99,10 @@ section {
 h1 {
     color: orange;
     background-color: black;
+    width: 100%;
+    height: 100%;
     font-family: "Barrio", system-ui;
-    font-size: 55px;
+    font-size: 63px;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -135,27 +137,34 @@ h1 {
 
 .galeria_img {
     width: 100%;
-    height: 100%;
+    height: 95%;
     object-fit: cover;
     border-radius: 30px;
 
 }
 
+.galeria_img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
 
 
 .somos h5 {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 307;
-    font-style: normal;
-    color: #999797;
-    background-color: black;
-    text-transform:uppercase;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left bottom, #000000, #36181b, #662924, #934122, #b7630b);
+    text-transform: uppercase;
     margin: 1px;
     padding: 3px;
-    text-align: center; 
+    text-align: center;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
     font-size: 25px;
+    font-weight: bold;
     letter-spacing: 1px;
+    animation: 5s typing steps(30) infinite alternate;
+
+
 
 
 
@@ -168,7 +177,7 @@ h1 {
 }
 
 .main img {
-    margin: 0 ;
+    margin: 0;
     padding: 25px;
 }
 
@@ -191,7 +200,9 @@ ul {
 .cambio {
     margin-bottom: 20px;
 }
-h2{display: block;
+
+h2 {
+    display: block;
     font-family: "Protest Guerrilla", serif;
     font-weight: 400;
     font-style: normal;
@@ -202,6 +213,7 @@ h2{display: block;
     color: #d4850e;
 
 }
+
 h3 {
     display: block;
     font-family: "Special Elite", serif;
@@ -218,9 +230,9 @@ p {
     margin: 5px 0 15px;
     line-height: 1.6;
     font-size: 18px;
-    
+
     color: #fae2e2;
-    
+
 }
 
 
@@ -353,6 +365,12 @@ footer .redes-footer a {
 }
 
 
+
+
+
+
+
+
 @media only screen and (min-width:480px) {
     .galeria-cont {
         grid-template-columns: 1fr 1fr;
@@ -378,7 +396,7 @@ footer .redes-footer a {
 }
 
 @media (max-width: 600px) {
-    
+
 
     .cambio-politica {
         padding: 15px;
